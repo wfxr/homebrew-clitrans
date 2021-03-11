@@ -1,0 +1,20 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+class Clitrans < Formula
+  desc "Yet another command-line translator (Chinese <=> English)"
+  homepage "https://github.com/wfxr/clitrans"
+  url "{{PKGURL}}"
+  sha256 "{{PKGSIG}}"
+  license "MIT/APACHE-2.0"
+  version "{{PKGVER}}"
+
+  def install
+    bin.install "clitrans"
+    zsh_completion.install  "completions/zsh/_clitrans"
+    bash_completion.install "completions/bash/clitrans.bash"
+    fish_completion.install "completions/fish/clitrans.fish"
+  end
+end
+
+# vim: ft=ruby:
