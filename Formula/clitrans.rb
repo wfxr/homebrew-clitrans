@@ -4,10 +4,10 @@
 class Clitrans < Formula
   desc "Yet another command-line translator (Chinese <=> English)"
   homepage "https://github.com/wfxr/clitrans"
-  url "https://github.com/wfxr/clitrans/releases/download/v0.3.0/clitrans-v0.3.0-x86_64-apple-darwin.tar.gz"
-  sha256 "dd9116fdad7ea7371e54f3c0033a35a6302bca6e5f48a320929a3360b1994362"
+  url "https://github.com/wfxr/clitrans/releases/download/v0.3.1/clitrans-v0.3.1-x86_64-apple-darwin.tar.gz"
+  sha256 "bc1061cf102af67fe4f1f53762d9c6fc4b87e95b2ebd62169e86896205a2e342"
   license "MIT/APACHE-2.0"
-  version "0.3.0"
+  version "0.3.1"
 
   def install
     bin.install "clitrans"
