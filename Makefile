@@ -1,4 +1,4 @@
-PKGVER = 0.3.2
+PKGVER = 0.3.3
 PKGURL = https://github.com/wfxr/clitrans/releases/download/v$(PKGVER)/clitrans-v$(PKGVER)-x86_64-apple-darwin.tar.gz
 
 .PHONY: codegen
